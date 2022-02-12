@@ -1,0 +1,16 @@
+@import './utils/var';
+@import './utils/mixin';
+
+@import './base/base';
+
+@import './components/header';
+@import './components/card';
+@import './components/button';
+
+@import './layout/layout';
+
+@import './pages/freelances';
+@import './pages/survey';
+@import './pages/home';
+@import './pages/notFound';
+@import './pages/results';

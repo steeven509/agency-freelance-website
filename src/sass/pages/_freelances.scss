@@ -1,0 +1,26 @@
+.freelances__section{
+    .freelances__container{
+        @include flex-center();
+        flex-direction: column;
+
+        .freelances__title{
+            font-size: 1.9rem;
+            font-weight: 700;
+            margin-bottom: 32px;
+        }
+        .freelances__subtitle{
+            font-size: 1.3rem;
+            font-weight: normal;
+            color: $secondary-color;
+            margin-bottom: 80px;
+        }
+        .card__container{
+            display: grid;
+            gap: 35px;
+            grid-template-rows: 350px 350px;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+    }
+    
+}

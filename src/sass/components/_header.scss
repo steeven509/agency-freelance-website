@@ -1,0 +1,23 @@
+.header {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+    .header__list {
+        display: flex;
+
+        .header__link {
+            padding: 15px;
+            color: $secondary-color;
+            font-size: 18px;
+        }
+        .active {
+            color: $white-color;
+            border-radius: 30px;
+            background-color: $primary-color;
+        }
+    }
+}

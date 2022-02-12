@@ -1,0 +1,23 @@
+.home__container {
+    background-color: $background-light;
+
+    .home__content {
+        padding: 50px 20px;
+        @include flex-center();
+
+        .home__content-txt {
+            margin-right: 30px;
+
+            .home__content-title {
+                font-size: 3rem;
+                line-height: 1.5;
+                font-weight: bold;
+                margin-bottom: 80px;
+            }
+            button {
+                width: 230px;
+                transition: all 0.3s ease-in;
+            }
+        }
+    }
+}
